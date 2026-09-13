@@ -1,0 +1,13 @@
+# AURORA local runtime files
+/datasets/
+/checkpoints/
+/pre_models/
+/outputs/
+__pycache__/
+*.py[cod]
+*.so
+*.pth
+*.pt
+*.pkl
+*.h5
+*.log

@@ -1,0 +1,10 @@
+_BASE_: avism_SwinL_COCO.yaml
+DATASETS:
+  TEST: ("avis_test",)
+INPUT:
+  MIN_SIZE_TEST: 448
+MODEL:
+  WEIGHTS: "./checkpoints/AVISM_SwinL_COCO.pth"
+  AVISM:
+    AURORA_ENABLED: True
+OUTPUT_DIR: "./outputs/avism_SwinL_COCO_AURORA"

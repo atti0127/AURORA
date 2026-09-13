@@ -1,0 +1,10 @@
+_BASE_: avism_R50_COCO.yaml
+DATASETS:
+  TEST: ("avis_test",)
+INPUT:
+  MIN_SIZE_TEST: 360
+MODEL:
+  WEIGHTS: "./checkpoints/AVISM_R50_COCO.pth"
+  AVISM:
+    AURORA_ENABLED: True
+OUTPUT_DIR: "./outputs/avism_R50_COCO_AURORA"

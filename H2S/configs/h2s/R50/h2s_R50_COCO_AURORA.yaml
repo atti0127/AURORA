@@ -1,0 +1,6 @@
+_BASE_: h2s_R50_COCO.yaml
+MODEL:
+  WEIGHTS: "./checkpoints/H2S_R50_COCO.pth"
+  AVISM:
+    AURORA_ENABLED: True
+OUTPUT_DIR: "./outputs/h2s_R50_COCO_AURORA"

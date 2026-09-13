@@ -1,0 +1,8 @@
+_BASE_: h2s_SwinL_COCO.yaml
+MODEL:
+  WEIGHTS: "./checkpoints/H2S_SwinL_COCO.pth"
+  AVISM:
+    AURORA_ENABLED: True
+    # Memory-only scheduling for 24 GB GPUs; it does not change predictions.
+    TEST_RUN_CHUNK_SIZE: 9
+OUTPUT_DIR: "./outputs/h2s_SwinL_COCO_AURORA"
