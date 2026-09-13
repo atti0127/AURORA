@@ -136,22 +136,3 @@ links will be added after publication.
 | ResNet-50 |           ImageNet | 45.96 | 63.32 | 43.21 | [H2S_R50_IN.pth](https://drive.google.com/file/d/12q5f1YYwPg8zqTYqFMBrN50L5FjDKIhD/view?usp=drive_link)     |
 | ResNet-50 |               COCO | 47.58 | 65.70 | 48.54 | [H2S_R50_COCO.pth](https://drive.google.com/file/d/1kgpeqjJG8rMbWG4TIg9vGzdHkRrO_vlZ/view?usp=drive_link)   |
 | Swin-L    |               COCO | 55.06 | 72.27 | 55.38 | [H2S_SwinL_COCO.pth](https://drive.google.com/file/d/1pFvEE3vBobZQlft2blOkmtWY9ch0j9Xb/view?usp=drive_link) |
-
-## Training
-
-The YAML files are the source of truth for model and training settings.
-
-```bash
-python train_net.py --num-gpus 2 \
-  --dataset-root ./datasets \
-  --config-file configs/h2s/R50/h2s_R50_IN.yaml
-```
-
-## Evaluation
-
-```bash
-python train_net.py \
-  --dataset-root ./datasets \
-  --config-file configs/h2s/R50/h2s_R50_IN.yaml \
-  --eval-only MODEL.WEIGHTS checkpoints/H2S_R50_IN.pth
-```
