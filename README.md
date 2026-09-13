@@ -19,7 +19,7 @@ AVISeg data, and pretrained checkpoints:
 [AVISM](https://github.com/ruohaoguo/avis), [ACVIS](https://github.com/jinbae-s/ACVIS), [H2S](https://github.com/leiyeliu/H2S).
 Run those instructions in the included model directory.
 
-Use an **AVISeg-trained model checkpoint**, rather than a backbone initialization
+Use an **Pre-trained model checkpoint**, rather than a backbone initialization
 checkpoint. Data and model weights must be obtained separately.
 
 ## 😺 Evaluation
