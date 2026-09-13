@@ -52,14 +52,11 @@ python train_net.py --eval-only --num-gpus 1 \
   MODEL.WEIGHTS /path/to/H2S_R50_IN.pth
 ```
 
-For the original baseline, append `MODEL.AVISM.AURORA_ENABLED False` and a
-separate `OUTPUT_DIR /path/to/baseline_output` to the same command.
-
 | Model | AURORA preset directory | Backbone and pretraining |
 |---|---|---|
-| AVISM | `avis/configs/avism/` | R50-IN, R50-COCO, SwinL-IN, SwinL-COCO |
+| AVISM | `avis/configs/avism/` | R50-IN, R50-COCO, SwinL-IN |
 | ACVIS | `ACVIS/configs/acvis/` | R50-IN, R50-COCO |
-| H2S | `H2S/configs/h2s/` | R50-IN, R50-COCO, SwinL-COCO |
+| H2S | `H2S/configs/h2s/` | R50-IN, R50-COCO |
 
 Choose the corresponding `*_AURORA.yaml` and matching trained checkpoint.
 
