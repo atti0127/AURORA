@@ -39,17 +39,3 @@ Download the following checkpoints and put them in `./checkpoints`.
 | --- | --- | --- | --- | --- | --- |
 | ResNet-50 | ImageNet | 42.01 | 62.04 | 42.43 | [ACVIS_R50_IN.pth](https://drive.google.com/file/d/1CpnXnMAFuoiQe1C-xWz4BHFXsuL3nFrh/view?usp=sharing) |
 | ResNet-50 | ImageNet & COCO | 46.64 | 65.02 | 46.72 | [ACVIS_R50_COCO.pth](https://drive.google.com/file/d/1TXZg2nDtRyhAJijnG8SXv4aqyNlcl_nc/view?usp=sharing) |
-
-## Getting Started
-
-### Train
-
-```
-python train_net.py --num-gpus 2 --config-file configs/acvis/acvis_saoc.yaml
-```
-
-### Evaluation
-
-```
-python train_net.py --config-file configs/acvis/acvis_saoc.yaml --eval-only MODEL.WEIGHTS checkpoints/ACVIS_R50_COCO.pth
-```
