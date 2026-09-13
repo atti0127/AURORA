@@ -17,7 +17,7 @@ AURORA/
 
 Follow each model's original instructions for its environment, CUDA extensions,
 AVISeg data, and pretrained checkpoints:
-[AVISM](avis/README.md), [ACVIS](ACVIS/README.md), [H2S](H2S/README.md).
+[AVISM](https://github.com/ruohaoguo/avis), [ACVIS](ACVIS/README.md), [H2S](H2S/README.md).
 Run those instructions in the included model directory. Each model uses its own
 input audio representation: AVISM uses `FEATAudios`, ACVIS uses `MELAudios`, and
 H2S uses `FEATAudios_sep`.
