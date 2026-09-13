@@ -1,4 +1,4 @@
-# AURORA
+# AURORA: Training-Free Audio-Visual Routing for Mask Refinement and Reliability Assessment
 
 Training-free query routing, mask refinement, and prediction re-scoring for
 audio-visual instance segmentation.
