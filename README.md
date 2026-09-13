@@ -9,7 +9,7 @@ with AURORA integrated directly.
 ```text
 AURORA/
   avis/     # AVISM + AURORA
-  ACVIS/    # ACVIS + AURORA (SAOC architecture)
+  ACVIS/    # ACVIS + AURORA
   H2S/      # H2S + AURORA
 ```
 
