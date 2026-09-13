@@ -5,30 +5,6 @@
 
 Official implementation of **Hear to See (H2S)**.
 
-**Accepted by ACM Multimedia (ACM MM) 2026.**
-
-## Abstract
-
-Audio-visual instance segmentation (AVIS) requires accurately identifying and
-tracking individual sounding objects with pixel-level masks. Existing methods
-struggle to match overlapping acoustic events with visual instances and handle
-asynchronous audio-visual dynamics. Therefore, two critical questions arise:
-how can a model establish precise correspondence between overlapping sound
-sources and visual instances, and how can a model maintain robust tracking when
-audio and visual signals are temporally misaligned? This paper proposes Hear to
-See (H2S), addressing these challenges through two mechanisms. The
-Acoustic-Semantic Projector (ASP) disentangles mixed audio and establishes
-hierarchical correspondence from semantic to spatial domains. The Asynchronous
-Dynamics Modulator (ADM) adaptively adjusts state transitions via
-audio-modulated Mamba, prioritizing current information during dynamic
-variations and maintaining continuity in stable periods. Experiments on AVISeg
-show H2S achieves SOTA performance, attaining 48.54 mAP with a COCO pretrained
-ResNet50 and surpassing the previous by 7.8%.
-
-<p align="center">
-  <img src="assets/h2s_overview.png" width="100%" alt="H2S architecture">
-</p>
-
 ## Installation
 
 The code has been exercised with the following model environment:
@@ -184,29 +160,3 @@ python train_net.py \
 <p align="center">
   <img src="assets/qualitative_results.png" width="100%" alt="H2S qualitative results">
 </p>
-
-## Acknowledgements
-
-H2S is built upon
-[AVIS](https://github.com/ruohaoguo/avis),
-[Mask2Former](https://github.com/facebookresearch/Mask2Former),
-[Detectron2](https://github.com/facebookresearch/detectron2), and
-[VITA](https://github.com/sukjunhwang/VITA). The audio and state-space
-components use ideas or code from
-[MixIT](https://github.com/google-research/sound-separation),
-[VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish),
-[Mamba](https://github.com/state-spaces/mamba), and
-[VMamba](https://github.com/MzeroMiko/VMamba). The sparse matrix multiplication
-operator is obtained from [PFT-SR](https://github.com/CVL-UESTC/PFT-SR).
-
-## Citation
-
-```bibtex
-@inproceedings{liu2026hear,
-  title     = {Hear to See: Discerning Stateful Listening for Audio-Visual Instance Segmentation},
-  author    = {Liu, Leiye and Zhang, Miao and Jiang, Jiahong and Li, Jingjing and Zhong, Jialong and Peng, Kai and Liu, Tingwei and Ji, Wei and Piao, Yongri and Lu, Huchuan},
-  booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},
-  year      = {2026},
-  doi       = {10.1145/3767308.3834908}
-}
-```
