@@ -20,7 +20,7 @@ AVISeg data, and pretrained checkpoints:
 Run those instructions in the included model directory.
 
 Use an **Pre-trained model checkpoint**, rather than a backbone initialization
-checkpoint. Data and model weights must be obtained separately.
+checkpoint.
 
 ## 😺 Evaluation
 
