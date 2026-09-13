@@ -83,21 +83,6 @@ Download the following checkpoints and put them in ```./checkpoints```.
     <td align="center"><a href="https://1drv.ms/u/c/3c9af704fb61931d/EXuM4cUxPTpEk1M7FoPqtNEBi47L7uR-ZlnqDCJscmNsiA?e=7prFiN">AVISM_SwinL_COCO.pth</a></td>
   </tr>
 </table>
-
-
-## 📌 Getting Started
-
-### Training
-```
-python train_net.py --num-gpus 2 --config-file configs/avism/R50/avism_R50_IN.yaml
-```
-
-### Evaluation
-```
-python train_net.py --config-file configs/avism/R50/avism_R50_IN.yaml --eval-only MODEL.WEIGHTS checkpoints/AVISM_R50_IN.pth
-```
-
-### Demo
 ```
 python demo_video/demo.py --config-file configs/avism/R50/avism_R50_IN.yaml --opts MODEL.WEIGHTS checkpoints/AVISM_R50_IN.pth
 ```
