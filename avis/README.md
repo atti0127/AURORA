@@ -8,7 +8,7 @@
 Ruohao Guo, Xianghua Ying*, Yaru Chen, Dantong Niu, Guangyao Li, Liao Qu, Yanyu Qi, Jinxing Zhou, Bowei Xing, Wenzhen Yue, Ji Shi, Qixun Wang, Peiliang Zhang, Buwen Liang
 
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 conda create --name avism python=3.8 -y
@@ -28,7 +28,7 @@ cd mask2former/modeling/pixel_decoder/ops
 sh make.sh
 ```
 
-## 🤗 Setup
+## Setup
 
 ### Datasets
 
