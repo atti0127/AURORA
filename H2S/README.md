@@ -155,7 +155,3 @@ python train_net.py \
   --config-file configs/h2s/R50/h2s_R50_IN.yaml \
   --eval-only MODEL.WEIGHTS checkpoints/H2S_R50_IN.pth
 ```
-
-<p align="center">
-  <img src="assets/qualitative_results.png" width="100%" alt="H2S qualitative results">
-</p>
