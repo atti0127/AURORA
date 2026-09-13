@@ -3,7 +3,6 @@
 [![Paper](https://img.shields.io/badge/arXiv-2608.03264-b31b1b.svg)](https://arxiv.org/abs/2608.03264)
 [![Conference](https://img.shields.io/badge/ACM%20MM-2026-0066cc.svg)](https://doi.org/10.1145/3767308.3834908)
 
-Official implementation of **Hear to See (H2S)**.
 
 ## Installation
 
