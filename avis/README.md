@@ -7,26 +7,6 @@
 
 Ruohao Guo, Xianghua Ying*, Yaru Chen, Dantong Niu, Guangyao Li, Liao Qu, Yanyu Qi, Jinxing Zhou, Bowei Xing, Wenzhen Yue, Ji Shi, Qixun Wang, Peiliang Zhang, Buwen Liang
 
-## 📰 News
-
-🔥**2025.03.01**: Code and checkpoints are released!
-
-🔥**2025.02.27**: AVIS got accepted to **CVPR 2025**! 🎉🎉🎉
-
-🔥**2024.11.12**: Our [project page](https://ruohaoguo.github.io/avis/) is now available!
-
-🔥**2024.11.11**: The AVISeg dataset has been uploaded to [OneDrive](https://1drv.ms/u/c/3c9af704fb61931d/EVOs609SGMxLsbvVzVJHAa4Bmnu4GVZGjqYHQxDz0NKTew?e=WQU2Uf), welcome to download and use!
-
-
-## 🌿 Introduction
-
-In this paper, we propose a new multi-modal task, termed audio-visual instance segmentation (AVIS), which aims to simultaneously identify, segment and track individual sounding object instances in audible videos. To facilitate this research, we introduce a high-quality benchmark named AVISeg, containing over 90K instance masks from 26 semantic categories in 926 long videos. Additionally, we propose a strong baseline model for this task. Our model first localizes sound source within each frame, and condenses object-specific contexts into concise tokens. Then it builds long-range audio-visual dependencies between these tokens using window-based attention, and tracks sounding objects among the entire video sequences.
-
-<div align='center'>
-<img src="./assets/teaser_figure.png" class="interpolation-image" alt="radar." height="50%" width="100%" />
-</div>
-
-
 
 ## ⚙️ Installation
 
