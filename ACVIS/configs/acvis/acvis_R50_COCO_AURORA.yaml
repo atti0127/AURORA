@@ -1,0 +1,5 @@
+_BASE_: acvis_R50_COCO.yaml
+MODEL:
+  AVISM:
+    AURORA_ENABLED: True
+OUTPUT_DIR: "./outputs/acvis_R50_COCO_AURORA"

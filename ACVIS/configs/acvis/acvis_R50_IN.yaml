@@ -1,0 +1,4 @@
+_BASE_: acvis_saoc.yaml
+MODEL:
+  WEIGHTS: "./checkpoints/ACVIS_R50_IN.pth"
+OUTPUT_DIR: "./outputs/acvis_R50_IN"
