@@ -26,13 +26,11 @@ checkpoint. Data and model weights must be obtained separately.
 ## Evaluation
 
 Run each command from its model directory with the corresponding environment
-active. Set `DETECTRON2_DATASETS` to the AVISeg root containing `test.json` and
-`test/`, or prepare data in that model directory's `datasets/` folder.
+active.
 
 AVISM (`cd avis`):
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 DETECTRON2_DATASETS=/path/to/AVISeg \
 python train_net.py --eval-only --num-gpus 1 \
   --config-file configs/avism/R50/avism_R50_IN_AURORA.yaml \
   MODEL.WEIGHTS /path/to/AVISM_R50_IN.pth
@@ -41,7 +39,6 @@ python train_net.py --eval-only --num-gpus 1 \
 ACVIS (`cd ACVIS`):
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 DETECTRON2_DATASETS=/path/to/AVISeg \
 python train_net.py --eval-only --num-gpus 1 \
   --config-file configs/acvis/acvis_R50_IN_AURORA.yaml \
   MODEL.WEIGHTS /path/to/ACVIS_R50_IN.pth
@@ -50,7 +47,6 @@ python train_net.py --eval-only --num-gpus 1 \
 H2S (`cd H2S`):
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 DETECTRON2_DATASETS=/path/to/AVISeg \
 python train_net.py --eval-only --num-gpus 1 \
   --config-file configs/h2s/R50/h2s_R50_IN_AURORA.yaml \
   MODEL.WEIGHTS /path/to/H2S_R50_IN.pth
