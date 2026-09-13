@@ -60,21 +60,8 @@ python train_net.py --eval-only --num-gpus 1 \
 
 Choose the corresponding `*_AURORA.yaml` and matching trained checkpoint.
 
-## AURORA implementation
-
-The default uses embedding-based query routing, foreground removal and logit
-averaging for mask refinement, and Dice agreement between the original masks
-for reliability estimation. It requires no retraining or additional parameters.
-
-The helpers are in `avis/avism/modeling/aurora.py`,
-`ACVIS/models/modeling/aurora.py`, and `H2S/h2s/modeling/aurora.py`.
-They are integrated into each model's native inference code. The
-`MODEL.AVISM.AURORA_ENABLED` flag selects AURORA; it is enabled by the AURORA
-presets and disabled by default in the original configurations.
 
 ## Acknowledgments
 
-Please cite the original model papers when using their code. Their citations
-and documentation remain in the model READMEs. Original licenses and copyright
-notices are preserved. See [NOTICE.md](NOTICE.md) for upstream revisions and
+Please cite the original model papers when using their code. See [NOTICE.md](NOTICE.md) for upstream revisions and
 license scope; the root [LICENSE](LICENSE) covers original AURORA contributions.
