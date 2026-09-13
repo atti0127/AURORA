@@ -101,21 +101,3 @@ python train_net.py --config-file configs/avism/R50/avism_R50_IN.yaml --eval-onl
 ```
 python demo_video/demo.py --config-file configs/avism/R50/avism_R50_IN.yaml --opts MODEL.WEIGHTS checkpoints/AVISM_R50_IN.pth
 ```
-
-## Acknowledgement
-
-We thank the great work from [Detectron2](https://github.com/facebookresearch/detectron2), [Mask2Former](https://github.com/facebookresearch/MaskFormer) and [VITA](https://github.com/sukjunhwang/VITA).
-
-
-## 📄 Citation
-
-If our work assists your research, feel free to give us a star ⭐ or cite us using
-
-```
-@article{guo2023audio,
-  title={Audio-Visual Instance Segmentation},
-  author={Guo, Ruohao and Ying, Xianghua and Chen, Yaru and Niu, Dantong and Li, Guangyao and Qu, Liao and Qi, Yanyu and Zhou, Jinxing and Xing, Bowei and Yue, Wenzhen and Shi, Ji and Wang, Qixun and Zhang, Peiliang and Liang, Buwen},
-  journal={arXiv preprint arXiv:2310.18709},
-  year={2023}
-}
-```
