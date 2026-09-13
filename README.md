@@ -13,7 +13,7 @@ AURORA/
   H2S/      # H2S + AURORA
 ```
 
-## Installation and data
+## ⚙ Installation and data
 
 Follow each model's original instructions for its environment, CUDA extensions,
 AVISeg data, and pretrained checkpoints:
@@ -23,7 +23,7 @@ Run those instructions in the included model directory.
 Use an **AVISeg-trained model checkpoint**, rather than a backbone initialization
 checkpoint. Data and model weights must be obtained separately.
 
-## Evaluation
+## 😺 Evaluation
 
 Run each command from its model directory with the corresponding environment
 active.
