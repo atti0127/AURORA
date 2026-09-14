@@ -1,4 +1,4 @@
-# AURORA: Training-Free Audio-Visual Routing for Mask Refinement and Reliability Assessment in Audio-Visual Instance Segmentation
+# AURORA: Training-Free Audio-Visual Routing for Audio-Visual Instance Segmentation with Mask Refinement and Reliability Assessment
 
 AURORA is an inference-time method that uses frame-level predictions to refine video-level masks and re-score their confidence through query routing, mask refinement, and reliability estimation.
 
